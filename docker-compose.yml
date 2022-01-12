@@ -1,0 +1,7 @@
+freegeoip:
+  image: techblog/freegeoip
+  container_name: freegeoip
+  ports:
+    - "8080:8080"
+    - "8888:8888"
+  restart: always

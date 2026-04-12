@@ -2,7 +2,7 @@
 # Dockerfile for freegeoip
 #
 
-FROM alpine
+FROM alpine:3.23.3
 MAINTAINER EasyPi Software Foundation
 
 ENV FREEGEOIP_VERSION=3.4.1
